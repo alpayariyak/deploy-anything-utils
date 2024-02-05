@@ -12,7 +12,7 @@ def translate_llama2(text):
         return text + "-hf"
     return text
 
-def get_model(model_name: str, library: str, access_token: str) -> Any:
+def get_model(model_name, library, access_token):
     """    
     Args:
         model_name (str): The name or URL of the model to be retrieved.
